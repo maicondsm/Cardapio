@@ -36,8 +36,7 @@ def imprimePedido():
         print(65*'=')
     else:
         print(65*'=')
-        print('Seu pedido:\n')
-        print('Você ainda não tem nenhum pedido!')
+        print('\nVocê ainda não tem nenhum pedido!')
         print(65*'=')
 
 while True:
@@ -97,8 +96,7 @@ while True:
                 print('Opção inválida')
         else:
             print(65*'-')
-            print('Seu pedido:\n')
-            print('Você ainda não tem nenhum pedido!')
+            print('\nVocê ainda não tem nenhum pedido!')
             print(65*'-')
             
     elif opcao == 3:
@@ -126,4 +124,4 @@ while True:
             break
 
     else:
-        print("\nEscolha uma opção validar por favor.")
+        print("\nEscolha uma opção valida por favor.")
